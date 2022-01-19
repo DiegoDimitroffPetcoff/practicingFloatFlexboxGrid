@@ -1,0 +1,116 @@
+@media all and (min-width: 1001px){
+ .wrapper{
+     width: 90%;
+     margin: auto;
+ }
+     
+    header { 
+        background-color: rgb(228, 228, 0);
+        
+        height: 150px;
+    }
+    
+    nav {
+        background-color: aquamarine;
+        height: 180px;
+        float: left;
+        width: 15%;
+        
+        
+    
+    }
+    main{
+        background-color: blueviolet;
+        height: 180px;
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+    footer{
+        background-color: brown;
+        height: 120px;
+        clear: both;
+        
+        
+    }
+    aside{
+        background-color: beige;
+        height: 180px;
+        display: inline-block;
+        width: 35%;
+        float: left;
+        
+    }
+        
+}
+
+
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+
+     
+header { 
+    background-color: rgb(228, 228, 0);
+    
+    height: 150px;
+}
+
+nav {
+    background-color: aquamarine;
+    height: 130px;
+    
+    
+
+}
+main{
+    background-color: blueviolet;
+    height: 120px;
+    display: inline-block;
+    width: 70%;
+    float: left;
+}
+footer{
+    background-color: brown;
+    height: 120px;
+    clear: both;
+    
+    
+}
+aside{
+    background-color: beige;
+    height: 120px;
+    display: inline-block;
+    width: 30%;
+    
+}
+    }
+
+
+    @media all and (max-width: 699px) and (min-width: 10px) {
+ 
+ 
+        header { 
+            background-color: rgb(228, 228, 0);
+            
+            height: 50px;
+        }
+        
+        nav {
+            background-color: aquamarine;
+            height: 50px;
+            
+        
+        }
+        main{
+            background-color: blueviolet;
+            height: 50px;
+        }
+        footer{
+            background-color: brown;
+            height: 50px;
+        }
+        aside{
+            background-color: beige;
+            height: 50px;
+        }
+        }
