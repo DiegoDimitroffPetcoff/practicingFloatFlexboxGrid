@@ -1,6 +1,10 @@
 @media all and (min-width: 1001px){
- .wrapper{
-     width: 90%;
+ 
+ body{
+     position: relative;
+ }
+    .wrapper{
+     width: 1000px;
      margin: auto;
  }
      
@@ -22,21 +26,57 @@
     main{
         background-color: blueviolet;
         height: 180px;
-        display: inline-block;
+        
         width: 50%;
         float: left;
     }
     footer{
         background-color: brown;
-        height: 120px;
+        height: 200px;
         clear: both;
+        position: relative;
+        
         
         
     }
+    /* .absolute{
+        background-color: white;
+        display: inline-block;
+       
+        width: 30%;
+        height: 80px;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        position: absolute;
+        
+        z-index: 1;
+        
+        margin: 0;
+        
+        
+
+    }
+    .relative{
+        background-color: greenyellow;
+        display: inline-block;
+        width: 100px;
+        height: 80px;
+       
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        position: relative;
+        right: 30px;
+        bottom: 0%
+
+    } */
+
+
     aside{
         background-color: beige;
         height: 180px;
-        display: inline-block;
+        
         width: 35%;
         float: left;
         
@@ -65,7 +105,7 @@ nav {
 main{
     background-color: blueviolet;
     height: 120px;
-    display: inline-block;
+    
     width: 70%;
     float: left;
 }
@@ -88,7 +128,7 @@ aside{
 
     @media all and (max-width: 699px) and (min-width: 10px) {
  
- 
+
         header { 
             background-color: rgb(228, 228, 0);
             
@@ -103,14 +143,24 @@ aside{
         }
         main{
             background-color: blueviolet;
-            height: auto;
+            height: 100px;
         }
         footer{
             background-color: brown;
             height: 50px;
+          
         }
         aside{
             background-color: beige;
             height: 50px;
+
         }
-        }
+body div div {
+    background-color: aliceblue;
+}
+
+
+
+
+    
+            }
